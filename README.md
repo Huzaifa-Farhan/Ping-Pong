@@ -47,7 +47,9 @@ Provides styling for the game, including font and layout adjustments.
 Contains the game logic, including:
    Ball Object: Manages ball properties and movement.  
    AI Object: Manages AI properties and behavior.  
-   Game Object: Manages game initialization, updates, drawing, and game state management.  
+   Game Object: Manages game initialization, updates, drawing, and game state management.
+
+      
 
 
 
