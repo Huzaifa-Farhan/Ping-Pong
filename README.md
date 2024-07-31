@@ -44,10 +44,10 @@ Sets up the canvas element and includes links to CSS and JavaScript files.
 Provides styling for the game, including font and layout adjustments.
 
 * JavaScript (main.js):  
-Contains the game logic, including:
-   Ball Object: Manages ball properties and movement.  
-   AI Object: Manages AI properties and behavior.  
-   Game Object: Manages game initialization, updates, drawing, and game state management.
+Contains the game logic, including:  
+   - Ball Object: Manages ball properties and movement.  
+   - AI Object: Manages AI properties and behavior.  
+   - Game Object: Manages game initialization, updates, drawing, and game state management.
 
       
 
