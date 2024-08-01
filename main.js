@@ -245,16 +245,16 @@ var Game = {
             this.context.textAlign = 'center';
             
             // Draw the player score on the left side
-            this.context.fillText(this.player.score.toString(), (this.canvas.width / 2) - 300, 200);
+            this.context.fillText(this.player.score.toString(), ((this.canvas.width) / 2) - 300, 200);
     
             // Draw the AI score on the right side
-            this.context.fillText(this.ai.score.toString(), (this.canvas.width / 2) + 300, 200);
+            this.context.fillText(this.ai.score.toString(), ((this.canvas.width) / 2) + 300, 200);
     
             // Change the font size for round information
-            this.context.font = '30px Courier New';
+            this.context.font = '40px Courier New';
     
             // Draw the current round number
-            this.context.fillText('Round ' + (this.round + 1), this.canvas.width / 2, 35);
+            this.context.fillText('Round ' + (this.round + 1), (this.canvas.width) / 2, 55);
     
             // Draw the points required to win the round
             this.context.font = '40px Courier';
