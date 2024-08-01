@@ -226,7 +226,20 @@ var Game = {
         this.context.lineWidth = 10;
         this.context.strokeStyle = '#ffffff';
         this.context.stroke();
-    
+
+        //Draw the dashed border around the entire game stage
+        this.context.beginPath();
+        this.context.setLineDash([7, 15]);
+        this.context.moveTo(20, 20); // Top-left corner
+        this.context.lineTo(this.canvas.width-20, 20); // Top-right corner
+        this.context.lineTo(this.canvas.width - 20, this.canvas.height-20); // Bottom-right corner
+        this.context.lineTo(20, this.canvas.height-20); // Bottom-left corner
+        this.context.lineTo(20, 20); // Back to the top-left corner to complete the rectangle
+        this.context.lineWidth = 10;
+        this.context.strokeStyle = '#ffffff';
+        this.context.stroke();
+
+
             // Draw the player scores and round information
             this.context.font = '100px Courier New';
             this.context.textAlign = 'center';
